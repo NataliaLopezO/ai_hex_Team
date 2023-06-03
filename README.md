@@ -1,5 +1,11 @@
 # ai-hex
 
+Primero se deben instalar las dependencias con 
+
+```bash
+npm install
+```
+
 Este es el proyecto para correr el torneo de Hex. Se debe compilar su agente usando la librería 'browserify'. Para esto pueden instalar la librería desde npm y luego ejecutar la instrucción desde la consola de linux, desde el directorio de su proyecto
 
 ```bash
