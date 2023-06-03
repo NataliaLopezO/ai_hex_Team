@@ -1,0 +1,44 @@
+{
+  "name": "ai-hex",
+  "version": "0.0.1",
+  "description": "react integration with ai-agents",
+  "main": "src/main.js",
+  "scripts": {
+    "play": "node run",
+    "build-agent": "browserify  -r ./src/HexAgent.js | uglifyjs > build/HexAgentCastillo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andcastillo/ai-hex.git"
+  },
+  "keywords": [
+    "\"artifical",
+    "agent",
+    "react",
+    "cleaner",
+    "example\""
+  ],
+  "author": "andcastillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andcastillo/ai-hex/issues"
+  },
+  "homepage": "https://github.com/andcastillo/ai-hex#readme",
+  "dependencies": {
+    "ai-agents": "0.2.1",
+    "babelify": "^10.0.0",
+    "node-dijkstra": "2.5.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "browserify": "^16.3.0",
+    "eslint": "^5.15.3",
+    "eslint-config-cheminfo": "^1.20.1",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.4.1",
+    "jest": "^24.5.0",
+    "rimraf": "^2.6.3",
+    "uglify-js": "^3.14.2"
+  }
+}
